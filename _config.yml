@@ -1,10 +1,20 @@
----
-layout: single
-title: "Hi, I’m Lucy 👋"
-classes: wide
-logo: "/assets/img/logo.png"
+title: "Lucy Inett"
+description: "MSc CS | Software & Data"
+url: "https://lucyinett.co.uk"
+baseurl: ""
 
----
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "mint"
+logo: /assets/img/logo.png
+breadcrumbs: false
+locale: en-GB
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-include-cache
+
 
 <p class="lead">{{ site.description }}</p>
 
