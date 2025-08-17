@@ -1,0 +1,49 @@
+title: "Lucy Inett"
+description: "MEng CS | Software, Data, AI and Automation"
+url: "https://lucyinett.co.uk"   # your custom domain
+baseurl: ""                      # keep blank for root domain
+
+# Pick the theme (GitHub will pull it automatically)
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+# Minimal Mistakes settings
+theme: minimal-mistakes-jekyll
+locale: en-GB
+#logo: /assets/img/avatar.png     # optional; add an image later
+author:
+  name: "Lucy Inett"
+  avatar: /assets/img/avatar.png # optional
+  bio: "Building data & web things. MSc CS."
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/lucyinett"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/lucyinett/"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "lucyinett@protonmail.com"
+
+# Navigation (defined in _data/navigation.yml)
+navigation:
+  header: 
+    - title: "Home"
+      url: /
+    - title: "Projects"
+      url: /projects/
+    - title: "Articles"
+      url: /articles/
+    - title: "CV"
+      url: /cv/
+
+# Plugins supported by GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+# Collections (blog is default via _posts)
+collections:
+  pages:
+    output: true
