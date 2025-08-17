@@ -1,42 +1,71 @@
 ---
 ---
 
-@import "minimal-mistakes/skins/mint";   // base skin
-@import "minimal-mistakes";              // theme
+@import "minimal-mistakes/skins/mint";
+@import "minimal-mistakes";
 
-/* Brand overrides */
+/* ===== Brand palette (green) ===== */
 :root {
-  --brand-primary: #4f46e5;
-  --brand-accent:  #14b8a6;
-  --brand-text:    #0f172a;
-  --brand-muted:   #64748b;
+  --brand-primary: #0ea5a3;  /* teal-green (professional but warm) */
+  --brand-primary-dark: #0b8583;
+  --brand-accent:  #8bd3dd;  /* soft accent */
+  --brand-text:    #0f172a;  /* slate-900 */
+  --brand-muted:   #64748b;  /* slate-500 */
+  --brand-footer-bg: #e6f7f6; /* very light green/teal band */
 }
 
+.site-logo img {
+  max-height: 60px;
+  vertical-align: middle;
+}
+
+
+/* Links & accents */
 a, .page__content a { color: var(--brand-primary); text-decoration: none; }
 a:hover, .page__content a:hover { text-decoration: underline; }
 
+/* Buttons */
 .btn, .btn--primary {
   background: var(--brand-primary);
   border-color: var(--brand-primary);
   color: #fff !important;
 }
-.btn:hover, .btn--primary:hover { background: #4338ca; border-color: #4338ca; }
+.btn:hover, .btn--primary:hover {
+  background: var(--brand-primary-dark);
+  border-color: var(--brand-primary-dark);
+}
 
+/* Center the homepage buttons row */
+.btns {
+  display: flex;
+  gap: .75rem;
+  flex-wrap: wrap;
+  justify-content: center;   /* <— centers */
+  margin: 1rem 0;
+}
+
+/* Typography & layout polish */
 .page__content h1, .page__content h2, .page__content h3 { color: var(--brand-text); letter-spacing: .1px; }
 .page__content p, .page__content li { color: var(--brand-text); }
+.archive__item { border-radius: 12px; padding: .75rem 1rem; }
 
+/* Navbar */
 .masthead { box-shadow: 0 4px 20px rgba(2,6,23,.06); }
 .masthead__menu-item a { padding: .6rem .9rem; font-weight: 500; }
 
-.page__footer { background: #f8fafc; color: var(--brand-muted); }
+/* Footer (brand colour + nicer text) */
+.page__footer {
+  background: var(--brand-footer-bg);
+  color: var(--brand-text);
+  border-top: 1px solid rgba(0,0,0,.05);
+}
+.site-footer-brand span { color: var(--brand-text); }
+.site-footer-social a { color: var(--brand-primary); }
+.site-footer-social a:hover { color: var(--brand-primary-dark); }
 
-/* Smaller previous/next buttons */
+/* Smaller Previous/Next buttons */
 .pagination--pager { font-size: .85rem; padding: .35rem .6rem; border-radius: .5rem; }
 .pagination { margin-top: 1.25rem; }
 
-/* Optional narrower post width */
+/* Optional: narrower reading width for articles */
 .layout--single .page { max-width: 920px; }
-
-.site-footer-social a { color: var(--brand-primary); }
-.site-footer-social a:hover { color: var(--brand-accent); }
-
