@@ -1,29 +1,45 @@
 title: "Lucy Inett"
-description: "MSc CS | Software & Data"
-url: "https://lucyinett.co.uk"
-baseurl: ""
+description: "MSc Computer Science | Software & Data Enthusiast"
+url: "https://lucyinett.co.uk"   # your custom domain
+baseurl: ""                      # leave blank for root domain
 
+# Use Minimal Mistakes remote theme
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "mint"
-logo: /assets/img/logo.png
+  # you can switch to "default", "air", "dark", etc.
+
+# Logo in navbar
+logo: "/assets/img/logo.png"
+
+# Optional site settings
 breadcrumbs: false
 locale: en-GB
 
+# Social links (show in header/footer if enabled)
+author:
+  name: "Lucy Inett"
+  avatar: "/assets/img/logo.png"   # optional profile photo
+  bio: "MSc CS student | Interested in data, AI, and software engineering"
+  location: "UK"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:your@email.com"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/yourusername"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/yourusername"
+
+# Plugins GitHub Pages supports
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-include-cache
 
-
-<p class="lead">{{ site.description }}</p>
-
-<div class="btns">
-  <a class="btn btn--primary" href="/assets/docs/LucyInett-CV.pdf" target="_blank">Download CV</a>
-  <a class="btn" href="/projects/">Projects</a>
-  <a class="btn" href="/articles/">Articles</a>
-</div>
-
-### Featured Projects
-- **Spotify Dashboard** — Streamlit app visualising my listening patterns. [GitHub »](https://github.com/...)
-- **Recommender System (Dissertation)** — React + Java + Python microservice. [GitHub »](https://github.com/...)
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: "/page:num/"
