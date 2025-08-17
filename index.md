@@ -1,10 +1,10 @@
 ---
 layout: single
-title: "Hi, I’m Lucy 👋"
+title: "Portfolio Home Page"
 classes: wide
-header:
-  overlay_color: "#111"
-  overlay_filter: 0.0
+
+
+
 ---
 
 I’m an MSc Computer Science student who enjoys building data & web things.

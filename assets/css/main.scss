@@ -41,6 +41,7 @@ a:hover, .page__content a:hover { text-decoration: underline; }
   gap: .75rem;
   flex-wrap: wrap;
   justify-content: center;   /* <— centers */
+  align-items: center;
   margin: 1rem 0;
 }
 
