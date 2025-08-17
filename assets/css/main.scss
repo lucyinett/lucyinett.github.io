@@ -1,89 +1,38 @@
 ---
-// This front matter tells Jekyll to process SCSS 
 ---
-{
-@import "minimal-mistakes/skins/air";   // base skin
-@import "minimal-mistakes";   
-           }           // theme
 
-/* ===== Brand overrides (light, modern) ===== */
+@import "minimal-mistakes/skins/mint";   // base skin
+@import "minimal-mistakes";              // theme
+
+/* Brand overrides */
 :root {
-  --brand-primary: #4f46e5;   /* indigo */
-  --brand-accent:  #14b8a6;   /* teal */
-  --brand-text:    #0f172a;   /* slate-900 */
-  --brand-muted:   #64748b;   /* slate-500 */
+  --brand-primary: #4f46e5;
+  --brand-accent:  #14b8a6;
+  --brand-text:    #0f172a;
+  --brand-muted:   #64748b;
 }
 
-/* Links & accents */
-a,
-.page__content a {
-  color: var(--brand-primary);
-  text-decoration: none;
-}
-a:hover,
-.page__content a:hover {
-  text-decoration: underline;
-}
+a, .page__content a { color: var(--brand-primary); text-decoration: none; }
+a:hover, .page__content a:hover { text-decoration: underline; }
 
-/* Buttons */
-.btn,
-.btn--primary {
+.btn, .btn--primary {
   background: var(--brand-primary);
   border-color: var(--brand-primary);
   color: #fff !important;
 }
-.btn:hover,
-.btn--primary:hover {
-  background: #4338ca; /* darker indigo */
-  border-color: #4338ca;
-}
+.btn:hover, .btn--primary:hover { background: #4338ca; border-color: #4338ca; }
 
-/* Section headings */
-.page__content h1,
-.page__content h2,
-.page__content h3 {
-  color: var(--brand-text);
-  letter-spacing: .1px;
-}
+.page__content h1, .page__content h2, .page__content h3 { color: var(--brand-text); letter-spacing: .1px; }
+.page__content p, .page__content li { color: var(--brand-text); }
 
-/* Body text */
-.page__content p,
-.page__content li {
-  color: var(--brand-text);
-}
+.masthead { box-shadow: 0 4px 20px rgba(2,6,23,.06); }
+.masthead__menu-item a { padding: .6rem .9rem; font-weight: 500; }
 
-/* Cards/lists spacing */
-.archive__item {
-  border-radius: 12px;
-  padding: .75rem 1rem;
-}
+.page__footer { background: #f8fafc; color: var(--brand-muted); }
 
-/* Navbar height/spacing */
-.masthead {
-  box-shadow: 0 4px 20px rgba(2, 6, 23, .06);
-}
-.masthead__menu-item a {
-  padding: .6rem .9rem;
-  font-weight: 500;
-}
+/* Smaller previous/next buttons */
+.pagination--pager { font-size: .85rem; padding: .35rem .6rem; border-radius: .5rem; }
+.pagination { margin-top: 1.25rem; }
 
-/* Footer subtle */
-.page__footer {
-  background: #f8fafc;
-  color: var(--brand-muted);
-}
-
-/* Smaller Previous/Next (pagination) */
-.pagination--pager {
-  font-size: .85rem;
-  padding: .35rem .6rem;
-  border-radius: .5rem;
-}
-.pagination {
-  margin-top: 1.25rem;
-}
-
-/* Optional: narrower post width on blog for readability */
-.layout--single .page {
-  max-width: 920px;
-}
+/* Optional narrower post width */
+.layout--single .page { max-width: 920px; }

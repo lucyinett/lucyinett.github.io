@@ -3,11 +3,14 @@ description: "MEng CS | Software, Data, AI and Automation"
 url: "https://lucyinett.co.uk"   # your custom domain
 baseurl: ""                      # keep blank for root domain
 
-# Pick the theme (GitHub will pull it automatically)
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "mint"
 
-# (Optional) pick a skin
-minimal_mistakes_skin: "air"  # options: default, dark, air, mint, etc.
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-include-cache
 breadcrumbs: false 
 locale: en-GB
 #logo: /assets/img/avatar.png     # optional; add an image later
@@ -30,13 +33,6 @@ author:
 navigation:
   main: main
   header: header
-
-
-# Plugins supported by GitHub Pages
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-include-cache
 
 # Collections (blog is default via _posts)
 collections:
