@@ -36,3 +36,7 @@ a:hover, .page__content a:hover { text-decoration: underline; }
 
 /* Optional narrower post width */
 .layout--single .page { max-width: 920px; }
+
+.site-footer-social a { color: var(--brand-primary); }
+.site-footer-social a:hover { color: var(--brand-accent); }
+

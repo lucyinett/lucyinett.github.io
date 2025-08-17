@@ -1,16 +1,39 @@
 ---
 layout: single
-title: "Lucy Inett"
+title: "Hi, I’m Lucy 👋"
 classes: wide
+header:
+  overlay_color: "#111"
+  overlay_filter: 0.0
 ---
-I'm Lucy and this is my page about me
 
-<div class="btns">
-<a class="btn btn--primary" href="/assets/docs/LucyInett-CV.pdf" target="_blank">Download CV</a>
-<a class="btn" href="/projects/">Projects</a>
-<a class="btn" href="/articles/">Blog</a>
+I’m an MSc Computer Science student who enjoys building data & web things.
+
+<div style="margin:1rem 0;">
+  <a class="btn btn--primary" href="/assets/docs/LucyInett-CV.pdf" target="_blank">Download CV</a>
+  <a class="btn" href="/projects/">Projects</a>
+  <a class="btn" href="/articles/">Articles</a>
 </div>
 
+---
+
+### Connect with me
+
+<div class="social-icons" style="font-size:1.3rem; margin:1rem 0;">
+  <a href="https://github.com/lucyinett" target="_blank" rel="noopener">
+    <i class="fab fa-github"></i> GitHub
+  </a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/lucyinett" target="_blank" rel="noopener">
+    <i class="fab fa-linkedin"></i> LinkedIn
+  </a> &nbsp;·&nbsp;
+  <a href="mailto:lucyinett@protonmail.com">
+    <i class="fas fa-envelope"></i> Email
+  </a>
+</div>
+
+---
+
 ### Featured Projects
-- **Spotify Dashboard** — Streamlit app showing listening patterns. [GitHub »](https://github.com/...)  |  [Live »](https://...)
-- **Recommender System (Dissertation)** — React + Java + Python microservice. [Meta repo »](https://github.com/...)
+
+- **Spotify Dashboard** — Streamlit app visualising my listening patterns. [GitHub »](https://github.com/...)
+- **Recommender System (Dissertation)** — React + Java + Python microservice. [GitHub »](https://github.com/...)

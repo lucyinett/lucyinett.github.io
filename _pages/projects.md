@@ -4,7 +4,7 @@ title: "Projects"
 permalink: /projects/
 classes: wide
 related: false
-author_profile: false
+author_profile: true
 share: false
 ---
 
