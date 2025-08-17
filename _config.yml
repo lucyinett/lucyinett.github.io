@@ -23,13 +23,13 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-envelope"
-      url: "mailto:your@email.com"
+      url: "mailto:lucyinett@protonmail.com"
     - label: "GitHub"
       icon: "fab fa-github"
-      url: "https://github.com/yourusername"
+      url: "https://github.com/lucyinett"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "https://linkedin.com/in/yourusername"
+      url: "https://linkedin.com/in/lucyinett"
 
 # Plugins GitHub Pages supports
 plugins:
@@ -43,3 +43,17 @@ markdown: kramdown
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: "/page:num/"
+
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Defaults so pages render nicely
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      classes: wide
