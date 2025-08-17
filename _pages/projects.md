@@ -3,7 +3,11 @@ layout: single
 title: "Projects"
 permalink: /projects/
 classes: wide
+related: false
+author_profile: false
+share: false
 ---
+
 
 #### Spotify Dashboard (Streamlit)
 Quick dashboard that pulls my recent listening and visualises patterns.  

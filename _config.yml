@@ -7,8 +7,8 @@ baseurl: ""                      # keep blank for root domain
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 # (Optional) pick a skin
-minimal_mistakes_skin: "default"  # options: default, dark, air, mint, etc.
-
+minimal_mistakes_skin: "air"  # options: default, dark, air, mint, etc.
+breadcrumbs: false 
 locale: en-GB
 #logo: /assets/img/avatar.png     # optional; add an image later
 author:
@@ -28,15 +28,9 @@ author:
 
 # Navigation (defined in _data/navigation.yml)
 navigation:
-  header: 
-    - title: "Home"
-      url: /
-    - title: "Projects"
-      url: /projects/
-    - title: "Articles"
-      url: /articles/
-    - title: "CV"
-      url: /cv/
+  main: main
+  header: header
+
 
 # Plugins supported by GitHub Pages
 plugins:

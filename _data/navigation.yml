@@ -7,3 +7,14 @@ main:
     url: /articles/
   - title: "CV"
     url: /cv/
+
+header:
+  - title: "GitHub"
+    icon: "fab fa-github"
+    url: "https://github.com/lucyinett"
+  - title: "LinkedIn"
+    url: "https://www.linkedin.com/in/lucyinett/"
+  - title: "Email"
+    url: "lucyinett@protonmail.com"
+
+   
