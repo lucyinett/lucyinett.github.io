@@ -6,8 +6,9 @@ baseurl: ""                      # keep blank for root domain
 # Pick the theme (GitHub will pull it automatically)
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
-# Minimal Mistakes settings
-theme: minimal-mistakes-jekyll
+# (Optional) pick a skin
+minimal_mistakes_skin: "default"  # options: default, dark, air, mint, etc.
+
 locale: en-GB
 #logo: /assets/img/avatar.png     # optional; add an image later
 author:
