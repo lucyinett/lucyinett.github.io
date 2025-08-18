@@ -54,15 +54,7 @@ collections:
     permalink: /:name/
 
 defaults:
-  - scope:
-      path: ""
-      type: projects
-    values:
-      layout: single
-      classes: wide
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      classes: wide
+  - scope: { path: "", type: projects }
+    values: { layout: single, classes: wide }
+  - scope: { path: "", type: pages }
+    values: { layout: single, classes: wide }
