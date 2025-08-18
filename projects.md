@@ -1,15 +1,8 @@
 ---
-layout: single
+layout: collection
 title: "Projects"
 permalink: /projects/
-classes: wide
+collection: projects
+entries_layout: list   # grid or list
 author_profile: true
 ---
-
-{% assign items = site.projects %}
-{% include documents-collection.html
-   entries=items
-   sort_by="title"
-   sort_order="forward"
-   type="grid"   # or "list"
-%}
