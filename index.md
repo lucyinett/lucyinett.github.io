@@ -2,7 +2,7 @@
 layout: single
 title: "Portfolio Home Page"
 classes: wide
-
+author_profile: true
 
 
 ---
