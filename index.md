@@ -28,5 +28,5 @@ I’m an MSc Computer Science student who enjoys building data & web things.
 
 ## Featured Projects
 
-#### Recommender System (Dissertation)
+#### Recommender System 
 {% include feature_row %}

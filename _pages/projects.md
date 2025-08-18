@@ -9,12 +9,10 @@ share: false
 ---
 
 
-#### Spotify Dashboard (Streamlit)
-Quick dashboard that pulls my recent listening and visualises patterns.  
-**Tech:** Python, Streamlit, Spotipy  
-[Repo](https://github.com/...) • [Live](https://...)
+### Featured Projects
 
-#### Recommender System (Dissertation)
-Full-stack system: React frontend, Java API, Python recommendation service.  
-**Tech:** React, Spring Boot, Python  
-[Meta repo](https://github.com/...) • [Paper](#) • [Screenshots](#)
+- [Skill Boost — Personalised Recommendations for Student Skill Growth](/projects/skill-boost/)  
+  NLP + recommender system for guiding student learning.
+
+
+
