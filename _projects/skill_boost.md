@@ -1,9 +1,11 @@
 ---
 title: "Skill Boost — Personalised Recommendations for Student Skill Growth"
 excerpt: "NLP + content-based + collaborative filtering to guide student skill growth."
-image: /assets/img/projects/skill-boost-cover.png   # optional card image
+image: /assets/img/projects/skill-boost-page.png   # optional card image
 permalink: /projects/skill-boost/
 classes: wide
+layout: single
+author_profile: false
 ---
 
 
@@ -37,7 +39,7 @@ Skill Boost cuts through the noise by interpreting **free-text goals**, mapping 
 ## Architecture
 The platform is split into three services: **Frontend**, **Backend API**, and a **Recommender** service. Everything runs locally or in CI via Docker Compose.  
 
-![System Architecture](/assets/img/projects/skill_boost_arch.png)  
+![System Architecture](/assets/img/projects/skill-boost-arch.png)  
 
 > **Flow:** Frontend (React) → Backend API (FastAPI) → Recommender (Python, NLP & CF) → PostgreSQL  
 

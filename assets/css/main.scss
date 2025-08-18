@@ -51,8 +51,23 @@ a:hover, .page__content a:hover { text-decoration: underline; }
 .archive__item { border-radius: 12px; padding: .75rem 1rem; }
 
 /* Navbar */
-.masthead { box-shadow: 0 4px 20px rgba(2,6,23,.06); }
-.masthead__menu-item a { padding: .6rem .9rem; font-weight: 500; }
+//.masthead { box-shadow: 0 4px 20px rgba(2,6,23,.06); }
+/* Make navbar background same as header */
+.masthead,
+.masthead__inner-wrap {
+  background: linear-gradient(90deg, rgba(14,165,163,.08), rgba(124,77,255,.08)) !important;
+  border-bottom: none !important;
+}
+
+/* Ensure menu items contrast nicely */
+.masthead__menu-item a {
+  color: var(--brand-text) !important;
+  font-weight: 600;
+}
+.masthead__menu-item a:hover {
+  color: var(--brand-primary-dark) !important;
+}
+
 
 /* Footer (brand colour + nicer text) */
 .page__footer {
