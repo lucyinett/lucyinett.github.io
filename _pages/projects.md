@@ -10,7 +10,7 @@ author_profile: true
 
 ### Featured Projects
 
-- [Skill Boost — Personalised Recommendations for Student Skill Growth](/projects/skill-boost/)  
+- [Skill Boost — Personalised Recommendations for Student Skill Growth](/_projects/skill-boost/)  
   NLP + recommender system for guiding student learning.
 
 
