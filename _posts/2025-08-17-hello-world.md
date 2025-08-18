@@ -1,6 +1,7 @@
 ---
 layout: single
 title: "Hello, world"
+classes: wide
 header:
   title: "Hello, world"
   overlay_image: assets/img/articles/hello_world_thumb.png
