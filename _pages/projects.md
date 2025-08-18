@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: home
 title: "Projects"
 permalink: /projects/
 classes: wide
