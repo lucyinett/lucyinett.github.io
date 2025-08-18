@@ -1,8 +1,8 @@
 ---
-layout: single
 title: "Skill Boost — Personalised Recommendations for Student Skill Growth"
+excerpt: "NLP + content-based + collaborative filtering to guide student skill growth."
+image: /assets/img/projects/skill-boost-cover.png   # optional card image
 permalink: /projects/skill-boost/
-classes: wide
 ---
 
 

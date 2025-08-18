@@ -1,11 +1,7 @@
 ---
-layout: single
+layout: collection
 title: "Projects"
 permalink: /projects/
-classes: wide
+collection: projects
+entries_layout: list   # grid or list
 ---
-
-### Featured Projects
-
-- [Skill Boost — Personalised Recommendations for Student Skill Growth](/projects/skill-boost/)  
-  NLP + recommender system for guiding student learning.

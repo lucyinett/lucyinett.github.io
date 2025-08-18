@@ -1,3 +1,4 @@
+# navbar items
 title: "Portfolio - Lucy Inett"
 description: "MEng Computer Science Student interested in AI and Automation"
 url: "https://lucyinett.co.uk"   # your custom domain
@@ -45,15 +46,14 @@ paginate: 5
 paginate_path: "/page:num/"
 
 collections:
-  pages:
+  projects:
     output: true
-    permalink: /:name/
+    permalink: /projects/:name/
 
-# Defaults so pages render nicely
 defaults:
   - scope:
       path: ""
-      type: pages
+      type: projects
     values:
       layout: single
       classes: wide
