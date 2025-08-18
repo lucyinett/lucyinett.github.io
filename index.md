@@ -4,15 +4,15 @@ title: "Portfolio Home Page"
 classes: wide
 author_profile: true
 feature_row:
-  - image_path: /assets/img/projects/skill-boost-page.png
+
+  - title: "Skill Boost Recommendation System"
+    image_path: /assets/img/projects/skill-boost-page.png
     alt: "Recommender System"
-    title: "Skill Boost Recommendation System"
     excerpt: "React + Java + Python microservice for personalised recommendations."
     url: https://github.com/lucyinett/skill-boost
     btn_label: "View project"
 ---
 
----
 
 I’m an MSc Computer Science student who enjoys building data & web things.
 

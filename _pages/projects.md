@@ -3,9 +3,8 @@ layout: single
 title: "Projects"
 permalink: /projects/
 classes: wide
-related: false
+entries_layout: list
 author_profile: true
-share: false
 ---
 
 
