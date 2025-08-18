@@ -1,5 +1,5 @@
-title: "Lucy Inett"
-description: "MSc Computer Science | Software & Data Enthusiast"
+title: "Portfolio - Lucy Inett"
+description: "MEng Computer Science Student interested in AI and Automation"
 url: "https://lucyinett.co.uk"   # your custom domain
 baseurl: ""                      # leave blank for root domain
 
@@ -18,7 +18,7 @@ locale: en-GB
 author:
   name: "Lucy Inett"
   avatar: "/assets/img/avatar.png"   # optional profile photo
-  bio: "MSc CS student | Interested in data, AI, and software engineering"
+  bio: "MEng Computer Science Student interested in AI and Automation"
   location: "UK"
   links:
     - label: "Email"

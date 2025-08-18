@@ -70,3 +70,20 @@ a:hover, .page__content a:hover { text-decoration: underline; }
 
 /* Optional: narrower reading width for articles */
 .layout--single .page { max-width: 920px; }
+
+/* Slimmer masthead + footer */
+.masthead { padding: .35rem 0; }
+.page__footer { padding: 0.75rem 0 0.25rem; }
+.page__footer .social-icons a i { font-size: 1.15rem; }
+
+/* Hide duplicate copyright line Minimal Mistakes adds */
+.page__footer-copyright { display: none; }
+
+/* Remove FEED label */
+.footer__content .feed-subscribe { display: none; }
+
+.masthead {
+  background: linear-gradient(90deg, rgba(14,165,163,.08), rgba(124,77,255,.08));
+  backdrop-filter: saturate(120%) blur(2px);
+  border-bottom: 1px solid rgba(0,0,0,.04);
+}

@@ -2,9 +2,8 @@
 layout: home
 title: "Articles"
 permalink: /articles/
-entries_layout: list
+entries_layout: grid
 classes: wide
-related: false
-author_profile: false
+author_profile: true
 ---
 
