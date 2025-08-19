@@ -1,5 +1,9 @@
 ### things to check once run
-- fetured project links to page not github
+
 - article is centred
 - removed nav bar shadow 
-- architecture diagram on skill boost page
+- hello world article duplication
+
+### To do next time
+- remove next page from the cv page
+- 
