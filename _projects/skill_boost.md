@@ -1,5 +1,5 @@
 ---
-title: "Skill Boost — Personalised Recommendations for Student Skill Growth"
+title: "Skill Boost"
 excerpt: "NLP + content-based + collaborative filtering to guide student skill growth."
 image: /assets/img/projects/skill-boost-page.png   # optional card image
 permalink: /projects/skill-boost/
@@ -32,7 +32,7 @@ I created this tool to help learners enhance their skills through available onli
 
 ## Architecture
 The platform is split into three services: **Frontend**, **Backend API**, and a **Recommender** service. Everything runs locally or in CI via Docker Compose.  
-> **Flow:** Frontend (React) → Backend API (FastAPI) → Recommender (Python, NLP & CF) → PostgreSQL  
+> **Flow:** Frontend (React) → Backend API (FastAPI) → Recommender (Python, NLP & CF) → MongoDB  
 
 ![System Architecture](/assets/img/projects/skill-boost-arch.png)  
 
