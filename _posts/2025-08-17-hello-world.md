@@ -2,6 +2,7 @@
 layout: single
 title: "Hello World"                       # hide the normal page title
 classes: wide
+author_profile: true
 ---
 
 

@@ -5,7 +5,7 @@ image: /assets/img/projects/skill-boost-page.png   # optional card image
 permalink: /projects/skill-boost/
 classes: wide
 layout: single
-author_profile: false
+author_profile: true
 ---
 
 
