@@ -14,7 +14,3 @@ author_profile: true
     <a href="/assets/docs/LucyInett-CV.pdf">Download CV</a>.
 </iframe>
 
-
----
-**Download PDF:**  
-[Click here to download](/assets/docs/LucyInett-CV.pdf){: .btn .btn--primary target="_blank"}

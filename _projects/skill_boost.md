@@ -1,13 +1,12 @@
 ---
-title: "Skill Boost"
-excerpt: "NLP + content-based + collaborative filtering to guide student skill growth."
+title: "Recommendation System - Skill Boost"
+excerpt: "React + Java + Python Personalised Recommendations for Student Skill Growth"
 image: /assets/img/projects/skill-boost-page.png   # optional card image
 permalink: /projects/skill-boost/
 classes: wide
 layout: single
 author_profile: true
 ---
-
 
 **Skill Boost** is a full-stack recommendation platform that helps Computer Science learners discover the **right skills, courses, and events** at the right time.  
 It combines **NLP** to understand goals, **content-based ranking** for relevant resources, and **collaborative filtering** to surface skills liked by similar users, all wrapped in a clean web app and containerised for easy deployment.  
