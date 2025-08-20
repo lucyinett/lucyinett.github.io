@@ -1,13 +1,11 @@
 ---
 layout: single
 title: "CGI Industrial Placement Overview"
-excerpt: "Overview of my industrial placement at CGI"  # hide the normal page title
+excerpt: "An overview of my placement at CGI, highlighting the projects I delivered in software engineering, automationand AI and how the experience helped me grow in both technical ability and leadership."
 classes: wide
 author_profile: true
 ---
 
-
-# CGI Industrial Placement Overview
 
 ## Introduction
 
