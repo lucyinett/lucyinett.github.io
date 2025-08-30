@@ -1,6 +1,6 @@
 ---
 title: "Reality TV Show Predictor - Sewing Bee"
-excerpt: "An explainable, cutoff-aware dashboard turning reality-show data into elimination and winner probabilities"
+excerpt: "A data-driven dashboard turning reality-show data into predictions"
 image: /assets/img/projects/sewing_bee_performance.png  # optional card image
 permalink: /projects/sewing_bee/
 classes: wide
@@ -160,5 +160,4 @@ For **MasterChef**, the next iteration will add:
 ## Explore more
 <div style="margin:1rem 0; display:flex; flex-wrap:wrap; gap:.75rem;">
   <a class="btn btn--primary" href="https://github.com/lucyinett/sewingbee-predictor" target="_blank" rel="noopener">View on GitHub</a>
-  <a class="btn" href="/assets/docs/project.pdf" target="_blank" rel="noopener">Read the Full Paper</a>
 </div>
