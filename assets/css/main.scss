@@ -2,9 +2,7 @@
 ---
 
 
-
 @import "minimal-mistakes";
-@import "overrides";  // <-- your file from step 1
 
 
 /* ===== Brand palette (green) ===== */
@@ -85,3 +83,22 @@ a:hover, .page__content a:hover { text-decoration: underline; }
 
 /* Remove FEED label */
 .footer__content .feed-subscribe { display: none; }
+
+.feature__item .archive__item        { overflow: visible; }
+.feature__item .archive__item-body   { height: auto !important; max-height: none; }
+
+/* Slightly smaller, better-wrapping titles on cards */
+.feature__item .archive__item-title  { 
+  font-size: 1.1rem; 
+  line-height: 1.25; 
+  margin-bottom: .35rem; 
+  overflow: visible;
+}
+
+/* Keep buttons from crowding content */
+.feature__item .btn { white-space: nowrap; }
+
+/* Optional: more room on small screens */
+@media (max-width: 600px) {
+  .feature__item .archive__item-title { font-size: 1.0rem; }
+}
