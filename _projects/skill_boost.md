@@ -1,7 +1,7 @@
 ---
 title: "Recommendation System - Skill Boost"
 excerpt: "React + Java + Python Personalised Recommendations for Student Skill Growth"
-image: /assets/img/projects/skill-boost-page.png   # optional card image
+image: /assets/img/projects/skill-boost-cover.png   # optional card image
 permalink: /projects/skill-boost/
 classes: wide
 layout: single

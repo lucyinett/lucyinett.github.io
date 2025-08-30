@@ -5,13 +5,13 @@ classes: wide
 author_profile: true
 
 feature_row:
-  - image_path: /assets/img/projects/skill-boost-page.png
-    title: "Recommendation System — Skill Boost"
+  - image_path: /assets/img/projects/skill-boost-cover.png
+    title: "Recommendation System"
     alt: "Recommendation System - Skill Boost"
     excerpt: "React + Java + Python personalised recommendations for student skill growth."
     url: /projects/skill-boost/
     btn_label: "View project"
-  - image_path: /assets/img/projects/sewing_bee_performance.png
+  - image_path: /assets/img/projects/sewing-bee-cover.png
     title: "Sewing Bee Predictor"
     alt: "Reality TV Show Predictor - Sewing Bee"
     excerpt: "An explainable, cutoff-aware dashboard turning reality-show data into elimination and winner probabilities."
