@@ -1,6 +1,7 @@
 ---
 title: "Reality TV Show Predictor - Sewing Bee"
-excerpt: "A data-driven dashboard turning reality-show data into predictions"
+excerpt: "An explainable, cutoff-aware dashboard turning reality-show data into elimination and winner probabilities."
+
 image: /assets/img/projects/sewing_bee_performance.png  # optional card image
 permalink: /projects/sewing_bee/
 classes: wide

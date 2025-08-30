@@ -14,7 +14,8 @@ feature_row:
   - image_path: /assets/img/projects/sewing-bee-cover.png
     title: "Sewing Bee <wbr>Predictor"
     alt: "Reality TV Show Predictor - Sewing Bee"
-    excerpt: "A data-driven dashboard turning reality-show data into predictions"
+    excerpt: "An explainable, cutoff-aware dashboard turning reality-show data into elimination and winner probabilities."
+
     url: /projects/sewing_bee/
     btn_label: "View project"
 ---

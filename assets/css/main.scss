@@ -102,33 +102,3 @@ a:hover, .page__content a:hover { text-decoration: underline; }
 @media (max-width: 600px) {
   .feature__item .archive__item-title { font-size: 1.0rem; }
 }
-/* --- Keep feature_row card content the same height and push button to bottom --- */
-.feature__item {             /* each card container */
-  display: flex;
-}
-
-.feature__item .archive__item {      /* the card */
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.feature__item .archive__item-teaser img {
-  display: block;             /* avoid extra gaps around images */
-  width: 100%;
-  height: auto;
-}
-
-.feature__item .archive__item-body {
-  display: flex;
-  flex-direction: column;
-  flex: 1 1 auto;             /* body fills remaining height */
-  min-height: 0;              /* prevents overflow in some browsers */
-}
-
-/* ⬇️ This is the key line: pushes the button to the bottom of the card */
-.feature__item .archive__item-body .btn {
-  margin-top: auto;           /* take remaining space above the button */
-  align-self: flex-start;     /* keep the button aligned left */
-  white-space: nowrap;
-}
