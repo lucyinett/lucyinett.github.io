@@ -6,9 +6,9 @@ classes: wide
 author_profile: true
 ---
 
-### Introduction
 
-Hello, and welcome to my portfolio blog.  
+
+Hello, and welcome to my portfolio blog!  
 
 I’ve created this space as a way to share my experiences in the tech industry and reflect on the lessons I’ve learned along the way. Over time, I’ve found that writing is not only a powerful tool for documenting ideas, but also for starting conversations and building connections with others who may be navigating similar paths.  
 
