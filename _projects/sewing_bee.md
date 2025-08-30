@@ -1,12 +1,15 @@
 ---
-title: "Reality TV Show Predictor - Sewing Bee"
+title: "Reality TV Show Predictor Dashboard - Sewing Bee"
 excerpt: "An explainable, cutoff-aware dashboard turning reality-show data into elimination and winner probabilities."
 
-image: /assets/img/projects/sewing_bee_performance.png  # optional card image
+image: /assets/img/projects/sewing-bee-cover.png  # optional card image
 permalink: /projects/sewing_bee/
 classes: wide
 layout: single
 author_profile: true
+header:
+  teaser: /assets/img/projects/sewing-bee-cover.png   # <— cover image shown in grids
+---
 ---
 
 *A compact, cutoff-aware dashboard that models who is most at risk of elimination next and who is most likely to win — built on The Great British Sewing Bee as a stepping stone to a richer MasterChef Australia project.*

@@ -12,7 +12,7 @@ feature_row:
     url: /projects/skill-boost/
     btn_label: "View project"
   - image_path: /assets/img/projects/sewing-bee-cover.png
-    title: "Sewing Bee <br>Predictor"
+    title: "Sewing Bee Predictor <br> Dashboard"
     alt: "Reality TV Show Predictor - Sewing Bee"
     excerpt: "An explainable, cutoff-aware dashboard turning reality-show data into elimination and winner probabilities."
 

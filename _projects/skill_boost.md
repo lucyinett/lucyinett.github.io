@@ -6,6 +6,9 @@ permalink: /projects/skill-boost/
 classes: wide
 layout: single
 author_profile: true
+header:
+  teaser: /assets/img/projects/skill-boost-cover.png   # <— cover image shown in grids
+---
 ---
 
 **Skill Boost** is a full-stack recommendation platform that helps Computer Science learners discover the **right skills, courses, and events** at the right time.  
