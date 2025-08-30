@@ -2,7 +2,11 @@
 ---
 
 
+
+@import "minimal-mistakes/skins/default"; // or your chosen skin
 @import "minimal-mistakes";
+@import "overrides";  // <-- your file from step 1
+
 
 /* ===== Brand palette (green) ===== */
 :root {
