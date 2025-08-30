@@ -1,6 +1,6 @@
 ---
 title: "Reality TV Show Predictor - Sewing Bee"
-
+excerpt: "An explainable, cutoff-aware dashboard turning reality-show data into elimination and winner probabilities"
 image: /assets/img/projects/sewing_bee_performance.png  # optional card image
 permalink: /projects/sewing_bee/
 classes: wide
@@ -8,12 +8,10 @@ layout: single
 author_profile: true
 ---
 
-# Sewing Bee Predictor — Pilot for a MasterChef Australia Analytics Project
-
 *A compact, cutoff-aware dashboard that models who is most at risk of elimination next and who is most likely to win — built on The Great British Sewing Bee as a stepping stone to a richer MasterChef Australia project.*
 
 ---
-
+## Overview
 Reality-competition shows aren’t random: week by week, contestants build (or lose) momentum, and the edit reinforces clear story arcs. There are also thriving “bet on anything” markets where odds shift in real time based on public perception. Put those together with the fact that episode-level results are widely available (e.g., Wikipedia), and you have a great applied-analytics problem:
 
 **Can we quantify those arcs early enough to predict who’s at risk next week and who’s likely to win?**
@@ -57,7 +55,7 @@ That makes it ideal to validate the **data model**, **feature engineering**, **p
   `series`, `episode_id`, `contestant_id`,  
   `pattern_rank`, `transformation_rank`, `garment_of_the_week` (0/1), `eliminated` (0/1)
 
-> Source: ![Wikipedia episode pages] (https://en.wikipedia.org/wiki/The_Great_British_Sewing_Bee)
+> Source: [Wikipedia episode pages](https://en.wikipedia.org/wiki/The_Great_British_Sewing_Bee)
 
 ---
 
@@ -97,9 +95,8 @@ Aggregates up to the cutoff:
 
 ---
 
-## Dashboard tour (images)
+## Dashboard tour
 
-> Swap these image paths with your screenshots.
 ---
 
 ### 1) Performance Metrics
@@ -159,13 +156,9 @@ For **MasterChef**, the next iteration will add:
 
 ---
 
-## Run locally
 
-```bash
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux:
-source .venv/bin/activate
-
-pip install -r requirements.txt
-streamlit run app/sewingbee_dashboard.py
+## Explore more
+<div style="margin:1rem 0; display:flex; flex-wrap:wrap; gap:.75rem;">
+  <a class="btn btn--primary" href="https://github.com/lucyinett/sewingbee-predictor" target="_blank" rel="noopener">View on GitHub</a>
+  <a class="btn" href="/assets/docs/project.pdf" target="_blank" rel="noopener">Read the Full Paper</a>
+</div>

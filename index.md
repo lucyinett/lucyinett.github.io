@@ -11,7 +11,7 @@ feature_row:
     btn_label: "View project"
   - image_path: /assets/img/projects/sewing_bee_performance.png  # shown on home screen
     alt: "Reality TV Show Predictor - Sewing Bee"
-    excerpt: An explainable, cutoff-aware dashboard that turns weekly reality-show data into elimination and winner probabilities
+    excerpt: An explainable, cutoff-aware dashboard turning reality-show data into elimination and winner probabilities
     url: /projects/sewing_bee
     btn_label: "View project"
 ---
