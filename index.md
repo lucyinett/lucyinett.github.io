@@ -21,7 +21,7 @@ feature_row:
 ---
 
 
-Hi, I’m Lucy Inett, a Computer Science Masters student passionate about building creative and practical solutions with software. My main interests are in AI and automation, areas I had the chance to explore and put into practice during my year in industry. This portfolio brings together some of my projects, research and writing, along with links to my CV and GitHub.
+Hi, I’m Lucy Inett, a Computer Science Masters student passionate about building creative and practical solutions with software. I am passionate about the future of intelligent technology and have a strong experience in Python, .NET, Azure, and AI-driven projects, areas I had the chance to explore and put into practice during my year in industry. This portfolio brings together some of my projects, research and writing, along with links to my CV and GitHub.
 
 ## Featured Projects
  

@@ -1,12 +1,11 @@
 # navbar
 title: "Portfolio - Lucy Inett"
-description: "MEng Computer Science Student interested in AI and Automation"
-url: "https://lucyinett.co.uk"   # your custom domain
-baseurl: ""                      # leave blank for root domain
+description: "MEng Computer Science Student interested in the future of intelligent technology."
+url: "https://lucyinett.co.uk"
+baseurl: ""                 
 
 # Use Minimal Mistakes remote theme
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-  # you can switch to "default", "air", "dark", etc.
 
 # Logo in navbar
 logo: "/assets/img/logo.png"
@@ -18,7 +17,7 @@ locale: en-GB
 # Social links (show in header/footer if enabled)
 author:
   name: "Lucy Inett"
-  avatar: "/assets/img/avatar.png"   # optional profile photo
+  avatar: "/assets/img/avatar.png"   # profile photo
   bio: "MEng Computer Science Student interested in AI and Automation"
   location: "UK"
   links:
