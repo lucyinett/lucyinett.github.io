@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Is AI Rotting our Brains, or sharpening them?"
-excerpt: "Reflecting on insigths from the [Diary Of A CEO podcast and my own experiences, exploring how AI can either full our thinking or deepen it, depending on how we choose to use it."
+excerpt: "Reflecting on insights from the Diary Of A CEO podcast and my own experiences, exploring how AI can either full our thinking or deepen it."s
 classes: wide
 author_profile: true
 ---
@@ -38,14 +38,14 @@ For me, the difference lies in intent. If I let ChatGPT write entire essays and 
 
 If you paste AI output without touching it, you’re not really engaging with it. My rule is to make sure you copy it out yourself. By rewriting as you go, you process the information, understand it properly and engage your brain.
 
-1. Ask yourself: how would I do this without AI?
+2. Ask yourself: how would I do this without AI?
 
 If the answer is something repetitive like searching for data, copying values, formatting references, then great. You are using AI as a productivity tool. But if the answer is anything creative, such as brainstorming, writing, coding etc then maybe think twice before outsourcing all of it. Find a balance, either use it to fill the blank page and change every word, or let it help you refine what you’re doing or have already created.
 
-1. Always add your own voice
+3. Always add your own voice
 
 AI drafts are generic by design, the easiest way to stop yourself from not engaging is to layer in your own perspective. For example, personal stories, examples from work or simply rewriting something in your natural tone. This extra effort makes the final product yours, and ensures its authenticity.
 
 ## So, is AI rotting our brains?
 
-I think that the better questions is. “what does our use of AI say about us?” These tools don’t come with built in ethics, discipline or motivation but I know that when I read something from someone else that was clearly made by AI I disengage, don’t trust it and think that they haven’t put any effort in what I am reading. The DOAC podcast didn’t settle the debate, and I don’t think it can be settled. But, reflecting on it reminded me that I want to use AI deliberately. Not as a shortcut to avoid effort, but as a tool to push me into deeper thinking. That way, instead of rotting my brain, it is keeping me curious and helping me deepen my skills and knowledge. That’s the challenge, and the opportunity, of living with AI.
+I think that the better questions is. “what does our use of AI say about us?” These tools don’t come with built in ethics, discipline or motivation. I know that when I read something from someone else that was clearly made by AI I disengage, I don’t trust it and think that they haven’t put any effort in what I am reading. The DOAC podcast didn’t settle the debate, and I don’t think it can be settled. But, reflecting on it reminded me that I want to use AI deliberately. Not as a shortcut to avoid effort, but as a tool to push me into deeper thinking. That way, instead of rotting my brain, it is keeping me curious and helping me deepen my skills and knowledge. That’s the challenge, and the opportunity, of living with AI.
