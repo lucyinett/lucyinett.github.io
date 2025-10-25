@@ -6,8 +6,8 @@ layout: single
 classes: wide
 author_profile: true
 header:
-  teaser: /assets/img/articles/phello_world_thumb.png
-  overlay_image: /assets/img/articles/phello_world_thumb.png
+  teaser: /assets/img/articles/hello_world_thumb.png
+  overlay_image: /assets/img/articles/hello_world_thumb.png
   overlay_filter: 0.25
 ---
   
