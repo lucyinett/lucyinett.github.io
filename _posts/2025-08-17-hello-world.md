@@ -4,9 +4,12 @@ title: "Hello World"
 excerpt: "Sharing my journey as an integrated masters student in tech, with reflections on women in tech, industry experiences, and the role of AI and automation in shaping our future."
 classes: wide
 author_profile: true
+header:
+  teaser: /assets/img/articles/portfolio-cover.png
+  overlay_image: /assets/img/articles/portfolio-cover.png
+  overlay_filter: 0.25
 ---
-
-
+---
 
 Hello, and welcome to my portfolio blog!  
 

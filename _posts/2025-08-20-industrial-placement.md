@@ -4,6 +4,11 @@ title: "CGI Industrial Placement Overview"
 excerpt: "An overview of my placement at CGI, highlighting the projects I delivered in software engineering, automation and AI and how the experience helped me grow in both technical ability and leadership."
 classes: wide
 author_profile: true
+header:
+  teaser: /assets/img/articles/portfolio-cover.png
+  overlay_image: /assets/img/articles/portfolio-cover.png
+  overlay_filter: 0.25
+---
 ---
 
 

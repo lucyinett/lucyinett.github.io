@@ -38,6 +38,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title/
