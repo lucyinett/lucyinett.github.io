@@ -5,6 +5,8 @@ date: 2025-10-07
 layout: single
 classes: wide
 author_profile: true
+teaser: /assets/img/articles/hello_world_thumb.png
+image_cover: /assets/img/articles/hello_world_thumb.png
 header:
   teaser: /assets/img/articles/hello_world_thumb.png
   overlay_image: /assets/img/articles/hello_world_thumb.png
