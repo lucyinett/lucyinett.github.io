@@ -4,6 +4,7 @@ excerpt: "A step-by-step guide (and reflection) on how I built and branded my ow
 date: 2025-10-07
 layout: single
 classes: wide
+
 header:
   teaser: /assets/img/articles/portfolio-cover.png
   overlay_image: /assets/img/articles/portfolio-cover.png
