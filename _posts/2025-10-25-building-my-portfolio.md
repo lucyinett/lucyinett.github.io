@@ -8,6 +8,7 @@ header:
   overlay_image: /assets/img/articles/hello_world_thumb.png
   overlay_filter: 0.25
   caption: "My journey creating a personal site using GitHub Pages, Jekyll, and custom design."
+  teaser: /assets/img/articles/hello_world_thumb.png
 ---
 
 Creating my own portfolio website has been one of the most rewarding projects I’ve done so far.  
