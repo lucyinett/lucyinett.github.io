@@ -102,3 +102,27 @@ a:hover, .page__content a:hover { text-decoration: underline; }
 @media (max-width: 600px) {
   .feature__item .archive__item-title { font-size: 1.0rem; }
 }
+
+/* Stack teaser image above each article entry (like big covers) */
+.archive__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.archive__item-teaser {
+  order: -1; /* move image to top */
+  width: 100%;
+  max-height: 320px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 0.75rem;
+}
+
+.archive__item-excerpt {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
