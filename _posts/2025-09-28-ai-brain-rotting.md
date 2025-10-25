@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Is AI Rotting our Brains, or sharpening them?"
-excerpt: "Reflecting on insights from the Diary Of A CEO podcast and my own experiences, exploring how AI can either full our thinking or deepen it."s
+excerpt: "Reflecting on insights from the Diary Of A CEO podcast and my own experiences, exploring how AI can either full our thinking or deepen it."
 classes: wide
 author_profile: true
 ---
