@@ -22,13 +22,13 @@ The best part? I built and customised everything **myself** — using **GitHub P
 
 ---
 
-## 🎯 Why I built it
+## Why I built it
 I was applying for graduate technology roles, and I realised how much a personal portfolio can help you stand out.  
 Instead of sending recruiters a list of links, I wanted a space that reflected how I think and work — from my **Streamlit apps** to my **research dissertation** and **technical writing**.
 
 ---
 
-## 🛠️ Tools and technologies I used
+## Tools and technologies I used
 Here’s what powers my site:
 
 - **GitHub Pages** – hosts everything for free, directly from a GitHub repository  
@@ -39,7 +39,7 @@ Here’s what powers my site:
 
 ---
 
-## ⚙️ Step 1 — Setting up GitHub Pages
+## Step 1 — Setting up GitHub Pages
 
 I started by creating a repository named:
 ```
@@ -60,7 +60,7 @@ This gave me a foundation to build from without needing to host anything myself.
 
 ---
 
-## 🖌️ Step 2 — Designing the look and feel
+## Step 2 — Designing the look and feel
 
 The fun part: **branding**.
 
@@ -80,7 +80,7 @@ A small but satisfying detail: I also designed my own **“LI” logo** to use i
 
 ---
 
-## 🧩 Step 3 — Structuring content
+## Step 3 — Structuring content
 
 I created separate sections for my content:
 ```
@@ -96,7 +96,7 @@ Each project is its own Markdown file under `_projects/`, with full descriptions
 
 ---
 
-## 🌐 Step 4 — Connecting my custom domain
+## Step 4 — Connecting my custom domain
 
 I bought my domain through **GoDaddy** and linked it to GitHub Pages using DNS records.
 
@@ -108,7 +108,7 @@ Once the DNS propagated, I added `lucyinett.co.uk` to the **Custom Domain** sect
 
 ---
 
-## 🧭 Step 5 — Adding polish
+## Step 5 — Adding polish
 
 The last 10% made the biggest difference:
 - Replaced generic “Blog” with **Articles** for a more polished tone  
@@ -124,7 +124,7 @@ Here’s a small example of my CV embed:
 
 ---
 
-## 💡 What I learned
+## What I learned
 This project taught me how **front-end design and content structure** go hand in hand.  
 Small details — like consistent spacing, tone, and navigation — make a site feel intentional.
 
@@ -133,7 +133,7 @@ a bit of CSS and clear organisation can go a long way.
 
 ---
 
-## 🚀 For anyone who wants to make their own
+## For anyone who wants to make their own
 
 If you want to build a similar portfolio:
 1. Create a `username.github.io` repo  
@@ -146,7 +146,7 @@ That’s it — free hosting, full control, and no backend headaches.
 
 ---
 
-## ✨ Final thoughts
+## Final thoughts
 I built this portfolio completely myself — from the layout and logo to the SCSS theme and structure.  
 It’s become my space to grow, reflect, and share my work, and I’d really encourage anyone learning tech to do the same.
 
