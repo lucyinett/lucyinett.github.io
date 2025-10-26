@@ -5,8 +5,8 @@ excerpt: "Reflecting on insights from the Diary Of A CEO podcast and my own expe
 classes: wide
 author_profile: true
 header:
-  teaser: /assets/img/articles/hello_world_thumb.png
-  overlay_image: /assets/img/articles/hello_world_thumb.png
+  teaser: /assets/img/articles/article_cover.png
+  overlay_image: /assets/img/articles/article_cover.png
   overlay_filter: 0.25
 ---
 ---
